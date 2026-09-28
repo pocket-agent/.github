@@ -2,13 +2,7 @@
 
 Reference for every **workflow**, **issue template**, and **pull request template** shipped with this repository template.
 
-Use this folder after creating a repo from the template to understand what each file does and what to customize.
-
-## Init wizard
-
-| Document | Summary |
-|----------|---------|
-| [Initialize from template](init-from-template.md) | Run `./scripts/init-from-template.sh` — copy `templates/` → root |
+Use this folder to understand what each GitHub configuration file does and what to customize for the PocketAgent organization.
 
 ## Workflows
 
@@ -49,4 +43,4 @@ See the [repository README](../README.md) and [INSTRUCTIONS.md](../INSTRUCTIONS.
 
 ## Docs index
 
-**README** | [Initialize from template](init-from-template.md) | [Dependabot commit signer](dependabot-signature-workflow.md) | [Bug report](bug-report-issue-template.md) | [Feature request](feature-request-issue-template.md) | [Documentation issue](documentation-issue-template.md) | [Pull request template](pull-request-template.md)
+**README** | [Dependabot commit signer](dependabot-signature-workflow.md) | [Bug report](bug-report-issue-template.md) | [Feature request](feature-request-issue-template.md) | [Documentation issue](documentation-issue-template.md) | [Pull request template](pull-request-template.md)

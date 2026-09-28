@@ -1,65 +1,30 @@
-# .github-template
+# PocketAgent — organization meta (`.github`)
 
-A **GitHub organization meta-repository template** from [@open-templates](https://github.com/open-templates). Scaffold a public [`.github`](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/customizing-your-organizations-profile) repo with the visitor-facing org profile, template catalog starter, Dependabot, CODEOWNERS, and issue/PR scaffolding.
+Public [**GitHub organization profile**](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/customizing-your-organizations-profile) and shared governance for [**PocketAgent**](https://github.com/pocket-agent): a lightweight AI agent you can run on **iPhone** (minimal on-device model, offline-first chat) and **Mac** (agent node, tools, and Telegram access with role-based permissions).
 
-Pair with [`.github-private-template`](https://github.com/open-templates/.github-private-template) if you also want a member-only org profile for maintainers.
+This repository is named **`.github`** on GitHub. It does not ship application code; it hosts the org landing page (`profile/README.md`), community docs, and automation shared across org repos.
 
-## Quick start
+## Repositories
 
-1. **Use this template** on GitHub inside your organization (repo name must be `.github`).
-2. Clone and personalize from [`templates/`](templates/):
+| Repository | Role |
+|------------|------|
+| [pocket-agent-ios](https://github.com/pocket-agent/pocket-agent-ios) | iOS chat client — on-device minimal model, optional connection to a Mac node |
+| [pocket-agent-macos](https://github.com/pocket-agent/pocket-agent-macos) | macOS agent node — hosting, Telegram bridge, admin and custom roles |
 
-```bash
-git clone https://github.com/open-templates/.github-template.git
-cd .github-template
-./scripts/init-from-template.sh
-```
+## Knowledge & specs (OKF)
 
-The hosted repo keeps **@open-templates** branding in root markdown until you run init. See [docs/init-from-template.md](docs/init-from-template.md).
+Agent and human contributors should start at **[index.md](index.md)** (Open Knowledge Format bundle) and **[specs/features/](specs/features/)**.
 
-## Two layers
-
-| Location | `profile/README.md` |
-|----------|---------------------|
-| **Root** [`profile/README.md`](profile/README.md) | Hosted **demo** layout (placeholder catalog — not the live open-templates org index) |
-| [`templates/profile/README.md`](templates/profile/README.md) | Adopter org profile — placeholders: `owner-username`, `owner-display-name`, default tagline |
-
-After init, edit **`profile/README.md`** in your org repo to list your templates. On this hosted template, edit **`templates/profile/README.md`** to change what adopters receive.
-
-## Repository layout
-
-```text
-profile/README.md              # reference org profile (until init overwrites in adopter clone)
-templates/
-├── profile/README.md          # adopter org profile → copied to profile/README.md
-├── README.md                  # adopter meta-repo landing
-├── INSTRUCTIONS.md
-└── …                          # see templates/ABOUT_TEMPLATES.md
-scripts/                       # init wizard (removed after init)
-specs/features/                # purpose, init, org profile, automation
-```
-
-### What you get after init
-
-| Path | Role |
-|------|------|
-| `profile/README.md` | **Public** org profile (template catalog on your org homepage) |
-| `README.md` / `INSTRUCTIONS.md` | Meta-repo governance for your org |
-| `.github/dependabot.yml` | Dependency update PRs |
-| `.github/CODEOWNERS` | Review ownership |
-
-Workflow and issue template reference: **[docs/README.md](docs/README.md)** · [INSTRUCTIONS.md](INSTRUCTIONS.md) · [index.md](index.md)
-
-## Reference implementation
-
-The live public catalog for [@open-templates](https://github.com/open-templates) is [open-templates/.github](https://github.com/open-templates/.github). Use it as inspiration **after** init — do not copy it into this template repo’s root `profile/README.md`.
+| Doc | Purpose |
+|-----|---------|
+| [INSTRUCTIONS.md](INSTRUCTIONS.md) | How to work in this org meta-repo |
+| [docs/README.md](docs/README.md) | Issue/PR templates and workflows |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | Contribution expectations |
 
 ## License
 
 MIT — see [LICENSE](LICENSE).
 
 ---
-
-## Repository documents
 
 **README** | [INSTRUCTIONS](INSTRUCTIONS.md) | [CHANGELOG](CHANGELOG.md) | [CONTRIBUTING](CONTRIBUTING.md) | [SECURITY](SECURITY.md) | [CODE_OF_CONDUCT](CODE_OF_CONDUCT.md)

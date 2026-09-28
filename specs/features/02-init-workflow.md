@@ -1,27 +1,14 @@
 ---
-type: Playbook
-title: Init workflow
-description: Copy personalized files from templates/ into the repo root.
-tags: [init, template]
-timestamp: 2026-08-17T00:00:00Z
+type: Feature
+title: Product repositories
+description: Split between iOS client and macOS agent node.
+tags: [pocket-agent, ios, macos]
+timestamp: 2026-09-28T00:00:00Z
 ---
 
-# Init workflow
+| Repo | Responsibility |
+|------|----------------|
+| **pocket-agent-ios** | Chat UI; smallest practical on-device model for offline use; optional secure link to a Mac node |
+| **pocket-agent-macos** | Agent node host; tools and heavier models; Telegram bridge; admin and custom roles for shared access |
 
-1. **Use this template** on GitHub (or clone) into an org repo named `.github`.
-2. Run `./scripts/init-from-template.sh` to copy from `templates/` with org/maintainer placeholders resolved.
-3. Repository name is fixed to `.github` (`fixedRepoName` in the init script).
-4. See [docs/init-from-template.md](../../docs/init-from-template.md) for CLI flags.
-
-## Init manifest (org-specific)
-
-Defined in `scripts/lib/template-init/manifests/github-org.js`. Besides shared community files from [COMMON_MANIFEST](https://github.com/open-templates/github-repo-template/blob/main/scripts/lib/template-init/manifests/common.js):
-
-| Source (`templates/`) | Destination |
-|------------------------|-------------|
-| `README.md` | `README.md` |
-| **`profile/README.md`** | **`profile/README.md`** |
-
-The **`profile/README.md`** copy is the public org homepage GitHub renders for all visitors at `github.com/your-org`.
-
-Shared adopter files follow the same manifest pattern as [github-repo-template](https://github.com/open-templates/github-repo-template).
+Each repo maintains its own OKF bundle (`index.md`, `specs/`) and a **`website/`** marketing scaffold.

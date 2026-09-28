@@ -1,6 +1,3 @@
-# Spec log
+# Spec change log
 
-| Date | Change |
-|------|--------|
-| 2026-08-17 | Document `profile/README.md` two-layer model (root reference vs `templates/profile/README.md`) |
-| 2026-08-17 | Initial specs for `.github-template` scaffold (public org profile) |
+* **2026-09-28** — Replaced open-templates org scaffold with PocketAgent organization meta; updated profile and product repo map.
