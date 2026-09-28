@@ -5,9 +5,11 @@
 **A lightweight AI agent for your pocket — offline on iPhone, powerful on your Mac.**
 
 <p>
-  <a href="https://github.com/pocket-agent/pocket-agent-ios"><strong>iOS app</strong></a>
+  <a href="https://github.com/pocket-agent/pocket-agent"><strong>Repository</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/pocket-agent/pocket-agent-macos"><strong>macOS node</strong></a>
+  <a href="https://apps.apple.com/us/app/pocketagent-chatbot/id6816867795"><strong>App Store</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://pocket-agent.pages.dev"><strong>Website</strong></a>
   &nbsp;·&nbsp;
   <a href="https://github.com/pocket-agent/.github/blob/main/CONTRIBUTING.md"><strong>Contributing</strong></a>
 </p>
@@ -18,17 +20,18 @@
 
 PocketAgent pairs a **minimal on-device model** on iOS with a **Mac-hosted agent node** when you need more capability. The interface is a **chatbot** on both platforms. On Mac, **Telegram** lets you talk to your agents from anywhere, with **admin** and **custom roles** so you can share access without handing everyone full tool permissions.
 
-### Repositories
+### Project
 
-| Repository | Summary |
-|------------|---------|
-| [**pocket-agent-ios**](https://github.com/pocket-agent/pocket-agent-ios) | iOS client — local offline model, chat UI, secure pairing to your Mac node |
-| [**pocket-agent-macos**](https://github.com/pocket-agent/pocket-agent-macos) | macOS agent node — tool execution, Telegram integration, role-based access control |
+| Link | Summary |
+|------|---------|
+| [**pocket-agent**](https://github.com/pocket-agent/pocket-agent) | Monorepo — `src/app-ios`, `src/app-macos`, OKF specs, and marketing **`website/`** |
+| [**App Store**](https://apps.apple.com/us/app/pocketagent-chatbot/id6816867795) | **PocketAgent: Chatbot** on iPhone, iPad, and Mac (single listing) |
+| [**Website**](https://pocket-agent.pages.dev) | Product landing page (iOS / macOS toggle) |
 | [**`.github`**](https://github.com/pocket-agent/.github) | Organization profile, governance, and shared automation |
 
 ### Status
 
-Application code is in active scaffolding. Product specs live in each repo under **`specs/`** (OKF). Marketing sites are under **`website/`** in the iOS and macOS repositories.
+Application code is in active scaffolding. Product specs live in the monorepo under **`specs/app-ios/`** and **`specs/app-macos/`** (OKF).
 
 ---
 

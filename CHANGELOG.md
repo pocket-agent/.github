@@ -5,7 +5,7 @@
 ### Added
 
 - PocketAgent organization profile and meta-repo README
-- OKF specs mapped to iOS and macOS product repositories
+- OKF specs mapped to the **pocket-agent** monorepo (iOS + macOS) and App Store listing
 
 ### Removed
 

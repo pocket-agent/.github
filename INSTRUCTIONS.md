@@ -7,14 +7,17 @@ This repo must be named **`.github`** on GitHub under the **pocket-agent** organ
 ## OKF
 
 * [index.md](index.md) — bundle root
-* [specs/features/](specs/features/) — org meta and product repo map
+* [specs/features/](specs/features/) — org meta and product map
 
 ## Product code
 
-Application repositories:
+All application source, OKF specs, and the marketing site live in one repository:
 
-* [pocket-agent-ios](https://github.com/pocket-agent/pocket-agent-ios)
-* [pocket-agent-macos](https://github.com/pocket-agent/pocket-agent-macos)
+* [pocket-agent](https://github.com/pocket-agent/pocket-agent) — `src/app-ios/`, `src/app-macos/`, `specs/`, `website/`
+
+Public download listing (iOS + macOS):
+
+* [App Store — PocketAgent: Chatbot](https://apps.apple.com/us/app/pocketagent-chatbot/id6816867795)
 
 ## GitHub automation
 

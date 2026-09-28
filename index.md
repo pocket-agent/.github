@@ -17,7 +17,7 @@ OKF knowledge bundle for the public PocketAgent GitHub organization.
 * [01 — Purpose](specs/features/01-purpose.md) — org meta-repo goals
 * [02 — Organization profile](specs/features/03-org-profile.md) — public catalog and messaging
 * [03 — GitHub automation](specs/features/04-github-automation.md) — Dependabot, CODEOWNERS, templates
-* [04 — Product repos](specs/features/02-init-workflow.md) — iOS and macOS repositories (replaces generic init)
+* [04 — Product monorepo](specs/features/02-init-workflow.md) — `pocket-agent` repo, App Store, and website
 
 ## History
 
