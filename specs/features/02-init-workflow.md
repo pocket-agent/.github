@@ -14,4 +14,4 @@ timestamp: 2026-09-28T00:00:00Z
 | **`website/`** | Public landing page (iOS / macOS toggle) — [pocket-agent.pages.dev](https://pocket-agent.pages.dev) |
 | **App Store** | [PocketAgent: Chatbot](https://apps.apple.com/us/app/pocketagent-chatbot/id6816867795) — one listing for iPhone, iPad, and Mac |
 
-Repository: **[github.com/pocket-agent/pocket-agent](https://github.com/pocket-agent/pocket-agent)**.
+Application monorepo: **private** (not public on GitHub). Public visitors use [github.com/pocket-agent](https://github.com/pocket-agent) and this **`.github`** repo only.

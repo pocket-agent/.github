@@ -13,7 +13,7 @@ This repo must be named **`.github`** on GitHub under the **pocket-agent** organ
 
 All application source, OKF specs, and the marketing site live in one repository:
 
-* [pocket-agent](https://github.com/pocket-agent/pocket-agent) — `src/app-ios/`, `src/app-macos/`, `specs/`, `website/`
+* Private **pocket-agent** monorepo — `src/app-ios/`, `src/app-macos/`, `specs/`, `website/` (not linked publicly)
 
 Public download listing (iOS + macOS):
 

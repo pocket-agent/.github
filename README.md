@@ -4,13 +4,14 @@ Public [**GitHub organization profile**](https://docs.github.com/en/organization
 
 This repository is named **`.github`** on GitHub. It does not ship application code; it hosts the org landing page (`profile/README.md`), community docs, and automation shared across org repos.
 
-## Product monorepo
+## Product links
 
 | Link | Role |
 |------|------|
-| [pocket-agent](https://github.com/pocket-agent/pocket-agent) | iOS client (`src/app-ios/`), macOS agent node (`src/app-macos/`), specs, and **`website/`** |
 | [App Store — PocketAgent: Chatbot](https://apps.apple.com/us/app/pocketagent-chatbot/id6816867795) | Single listing for iPhone, iPad, and Mac |
 | [pocket-agent.pages.dev](https://pocket-agent.pages.dev) | Marketing site |
+
+Application source (`src/app-ios`, `src/app-macos`, specs, `website/`) lives in a **private** monorepo and is not linked from this profile.
 
 ## Knowledge & specs (OKF)
 
